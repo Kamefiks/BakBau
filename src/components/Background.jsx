@@ -27,7 +27,7 @@ function Background({ scrollUpRef }) {
             ease: "expo.inOut",
             duration: 2,
             stagger: 0.4,
-          }
+          },
         );
         gsap.fromTo(
           logoRef.current,
@@ -40,7 +40,7 @@ function Background({ scrollUpRef }) {
             opacity: 1,
             ease: "expo.inOut",
             duration: 7.2,
-          }
+          },
         );
         gsap.fromTo(
           "#custom-cursor",
@@ -51,7 +51,7 @@ function Background({ scrollUpRef }) {
             opacity: 1,
             delay: 5,
             duration: 3,
-          }
+          },
         );
         gsap.fromTo(
           "#picchangebar",
@@ -62,7 +62,7 @@ function Background({ scrollUpRef }) {
             opacity: 1,
             delay: 5,
             duration: 1,
-          }
+          },
         );
         gsap.fromTo(
           ".anim-def",
@@ -73,7 +73,7 @@ function Background({ scrollUpRef }) {
             opacity: 1,
             delay: 3,
             duration: 1,
-          }
+          },
         );
         gsap.fromTo(
           ".anim-bg",
@@ -84,7 +84,7 @@ function Background({ scrollUpRef }) {
             opacity: 1,
             delay: 0.5,
             duration: 1.5,
-          }
+          },
         );
       }
     }, 100);
@@ -100,7 +100,7 @@ function Background({ scrollUpRef }) {
       >
         <div
           style={{
-            backgroundImage: `url(/src/pics/${imagesNames[imageMain - 1]})`,
+            backgroundImage: `url(/pics/${imagesNames[imageMain - 1]})`,
           }}
           className="background-main anim-bg h-full scale-x-[-1] section  bg-cover bg-center bg-no-repeat absolute w-full  "
         ></div>

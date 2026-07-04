@@ -26,7 +26,7 @@ function Page() {
         ease: "expo.inOut",
         duration: 2,
         stagger: 0.4,
-      }
+      },
     );
     gsap.fromTo(
       "#leaf-gardening",
@@ -41,7 +41,7 @@ function Page() {
         duration: 2.2,
         repeat: -1,
         yoyo: true,
-      }
+      },
     );
   }, []);
 
@@ -56,7 +56,7 @@ function Page() {
           <SectionStarter sectionName="About us" />
           <div className="flex relative w-full h-full">
             <img
-              src="src/pics/Group 1.webp"
+              src="/pics/Group 1.webp"
               className="absolute w-[100%] grayscale brightness-[35%] justify-center h-[300px] z-0 flex"
               alt="s"
             />

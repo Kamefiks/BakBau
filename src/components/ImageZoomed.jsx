@@ -44,7 +44,7 @@ function ImageZoomed({
           className={`${zoomedImage && (Number(zoomedImage.split(".")[0].at(-1)) < 1 ? "pointer-events-none opacity-25" : "pointer-events-auto opacity-100")} absolute cursor-pointer left-[2%] md:left-10 top-[30%] md:top-[35%]`}
           onClick={() => {
             const newIndex = Number(zoomedImage.split(".")[0].at(-1)) - 1;
-            setZoomedImage(`src/pics/IKpic${newIndex}`);
+            setZoomedImage(`/pics/IKpic${newIndex}`);
             setCurPhotoIndex(newIndex);
             setCurrentImageDescription(imageInformation[newIndex]);
             setZoomLevel(100);
@@ -57,7 +57,7 @@ function ImageZoomed({
           className={`${zoomedImage && (Number(zoomedImage.split(".")[0].at(-1)) > 6 ? "pointer-events-none opacity-25" : "pointer-events-auto opacity-100")} absolute cursor-pointer  right-[2%] md:right-10 top-[30%] md:top-[35%]`}
           onClick={() => {
             const newIndex = Number(zoomedImage.split(".")[0].at(-1)) + 1;
-            setZoomedImage(`src/pics/IKpic${newIndex}`);
+            setZoomedImage(`/pics/IKpic${newIndex}`);
             setCurPhotoIndex(newIndex);
             setCurrentImageDescription(imageInformation[newIndex]);
             setZoomLevel(100);

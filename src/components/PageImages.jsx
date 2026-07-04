@@ -13,18 +13,20 @@ function PageImages() {
   const [currentImageDescription, setCurrentImageDescription] = useState(false);
 
   const [curPhotoIndex, setCurPhotoIndex] = useState(
-    zoomedImage !== false ? Number(zoomedImage.split(".")[0].at(-1)) - 1 : false
+    zoomedImage !== false
+      ? Number(zoomedImage.split(".")[0].at(-1)) - 1
+      : false,
   );
 
   const [imagesIdeeKonstruktion] = useState([
-    "/src/pics/album0.webp",
-    "/src/pics/IKpic1.webp",
-    "/src/pics/IKpic2.webp",
-    "/src/pics/IKpic3.webp",
-    "/src/pics/IKpic4.webp",
-    "/src/pics/IKpic5.webp",
-    "/src/pics/IKpic6.webp",
-    "/src/pics/IKpic7.webp",
+    "/pics/album0.webp",
+    "/pics/IKpic1.webp",
+    "/pics/IKpic2.webp",
+    "/pics/IKpic3.webp",
+    "/pics/IKpic4.webp",
+    "/pics/IKpic5.webp",
+    "/pics/IKpic6.webp",
+    "/pics/IKpic7.webp",
   ]);
   const [imageDetails] = useState([
     "Paving works",
@@ -82,21 +84,21 @@ function PageImages() {
         <div className="w-full flex md:flex-row items-center md:gap-[0px] gap-[51px] flex-col justify-center">
           <Album
             albumName={"Idee & Konstruktion"}
-            albumMainPhoto={"src/pics/album0.webp"}
+            albumMainPhoto={"/pics/album0.webp"}
             imagesCount={8}
             showImages={showImages}
             setShowImages={setShowImages}
           />
           <Album
             albumName={"Gartenpflege"}
-            albumMainPhoto={"src/pics/album2.webp"}
+            albumMainPhoto={"/pics/album2.webp"}
             imagesCount={5}
             showImages={showImages}
             setShowImages={setShowImages}
           />
           <Album
             albumName={"Idee & Konstruktion"}
-            albumMainPhoto={"src/pics/album3.webp"}
+            albumMainPhoto={"/pics/album3.webp"}
             imagesCount={3}
             showImages={showImages}
             setShowImages={setShowImages}

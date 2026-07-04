@@ -23,18 +23,18 @@ function CarouselImages() {
       <ImageFromCarousel
         type={"prev"}
         index={index}
-        imageUrl={`src/pics/${images[index - 1]}`}
+        imageUrl={`/pics/${images[index - 1]}`}
         onClick={() => index >= 1 && setIndex((cur) => cur - 1)}
       />
       <ImageFromCarouselCurrent
-        imageUrl={`src/pics/${images[index]}`}
+        imageUrl={`/pics/${images[index]}`}
         imageDetails={imageDetails}
         index={index}
       />
       <ImageFromCarousel
         type={"next"}
         index={index}
-        imageUrl={`src/pics/${images[index + 1]}`}
+        imageUrl={`/pics/${images[index + 1]}`}
         onClick={() => index <= 3 && setIndex((cur) => cur + 1)}
       />
     </div>
