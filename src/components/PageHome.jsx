@@ -56,7 +56,7 @@ function Page() {
           <SectionStarter sectionName="About us" />
           <div className="flex relative w-full h-full">
             <img
-              src="/pics/Group 1.webp"
+              src="/pics/group1.webp"
               className="absolute w-[100%] grayscale brightness-[35%] justify-center h-[300px] z-0 flex"
               alt="s"
             />
