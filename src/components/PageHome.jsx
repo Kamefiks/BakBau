@@ -1,8 +1,6 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
-import { HiOutlineSparkles } from "react-icons/hi";
-
 import Footer from "./Footer";
 
 import Services from "./Services";
@@ -53,7 +51,7 @@ function Page() {
           headline="Herzlich willkommen!"
         />
         <div className=" w-full lg:w-full mt-24  md:mt-32 flex flex-col items-center">
-          <SectionStarter sectionName="About us" />
+          <SectionStarter sectionName="Über uns" />
           <div className="flex relative w-full h-full">
             <img
               src="/pics/group1.webp"
@@ -143,86 +141,33 @@ function Page() {
         </div>
         <AchievementSection />
 
-        <div className=" w-full lg:w-full mt-24  sm:mt-32 flex flex-col items-center ">
-          <SectionStarter sectionName="Our range of services" />
+        <div className=" w-full lg:w-full mt-24 pb-32  sm:mt-32 flex flex-col items-center ">
+          <SectionStarter sectionName="Unser Leistungsspektrum" />
           <div className="text-[#FFFFFF] text-center mb-10 md:mb-32 mt-16 md:text-[20px] text-[17px] md:w-[793px] w-[311px]   font-inter">
             <b className="opacity-[100%] font-semibold sm:font-normal">
-              We take pride{" "}
+              Schauen Sie sich{" "}
             </b>
             <b className="opacity-[82%] font-medium sm:font-normal">
-              in offering a{" "}
+              unser Leistungsangebot{" "}
             </b>
             <b className="opacity-[100%] font-semibold sm:font-normal">
-              wide range of services{" "}
+              an und lassen Sie uns gemeinsam{" "}
             </b>
-            <b className="opacity-[82%] font-medium sm:font-normal">
-              tailored to meet all your construction and gardening needs.{" "}
-            </b>
-            <b className="opacity-[100%] hidden md:block  font-semibold sm:font-normal">
-              Check our range of services and let&apos;s create{" "}
-            </b>
-            <b className="opacity-[100%] md:hidden font-semibold sm:font-normal">
-              Check our range of services and let&apos;s{" "}
-            </b>
+            <b className="opacity-[82%] font-medium sm:font-normal"> </b>
 
-            <div className="flex w-full justify-center items-center">
-              <b className="opacity-[82%] pr-1 md:hidden font-medium sm:font-normal">
-                create{" "}
-              </b>
-              <b className="opacity-[100%] text-[#BEF860] font-semibold sm:font-normal">
-                {" "}
-                something extraordinary!
-              </b>
-              <span className="pl-2 text-[25px] text-[#BEF860] rotate-12">
-                <HiOutlineSparkles />
+            <div>
+              <span className="opacity-[82%] pr-1 font-medium sm:font-normal">
+                etwas{" "}
               </span>
+              <p className="opacity-[100%] text-[#BEF860] font-semibold sm:font-normal">
+                {" "}
+                Außergewöhnliches schaffen!
+              </p>
             </div>
           </div>
           <Services />
-          <div className="flex mt-32 pb-44  flex-col sm:w-[65%] w-[100%]    md:justify-between">
-            <p className="md:text-[30px] pl-7 text-[24px] font-semibold text-[#ffffff]">
-              And many more...
-            </p>
-            <div className="flex md:flex-row items-center md:items-start flex-col mt-5 w-full md:justify-between">
-              <p className="md:text-[20px] pl-7  text-[16px] pr-32">
-                <b className="linear-bg-text-more-offers font-medium">
-                  An offer that interests you is not on the list?
-                </b>{" "}
-                <b className="text-green-contact font-medium">Contact us</b>{" "}
-                <b className="  font-medium linear-bg-text-more-offers">
-                  and we will customize the perfect one for you ourselves.
-                </b>
-              </p>
-              <div className="flex mt-24 md:mt-0 w-full md:pl-0 pl-10">
-                <div className="flex rotate-[6deg] ">
-                  <div className="md:w-[328px]  rounded-[16px] justify-center items-center md:h-[123px] h-[104px] flex stroke-bg-additional-offer ">
-                    <div className=" rounded-[16px]   linear-covered-bg-additional-offer pr-16 md:w-[326px] h-[102px] flex md:h-[121px]">
-                      <p className="linear-background-text-individual  md:pr-0 md:text-[22px] text-[18px] ml-5 mt-3 font-normal font-inter">
-                        Your individual offer
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex rotate-[20deg] mt-10 absolute ">
-                  <div className="md:w-[328px] rounded-[16px] justify-center items-center h-[104px] md:h-[123px] flex stroke-bg-additional-offer ">
-                    <div className=" rounded-[16px] flex-col pr-16 linear-bg-additional-offer md:w-[326px] h-[102px] flex md:h-[121px]">
-                      <p className="text-[#ffffff]  md:text-[22px] text-[18px]  md:pr-0 ml-5 mt-3 font-normal font-inter">
-                        Your individual offer
-                      </p>
-                      <div className="flex-col flex ml-6 h-full mt-3 gap-1">
-                        <div className="flex w-[95px] h-[10%] rounded-[8px] bg-[#313131]"></div>
-                        <div className="flex w-[115px] h-[10%] rounded-[8px] bg-[#313131]"></div>
-                        <div className="flex w-[85px] h-[10%] rounded-[8px] bg-[#313131]"></div>
-                        <div className="flex w-[55px] h-[10%] rounded-[8px] bg-[#313131]"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        <SectionStarter sectionName="All it takes is a phone call!" />
+        <SectionStarter sectionName="Ein Anruf genügt!" />
 
         <ContactSection />
 

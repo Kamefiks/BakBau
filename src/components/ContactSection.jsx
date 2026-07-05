@@ -26,7 +26,7 @@ function ContactSection() {
         nachname={formData.nachname}
         message={formData.message}
         email={formData.email}
-      />
+      />,
     );
   };
   const sendMail = async (e) => {
@@ -66,13 +66,14 @@ function ContactSection() {
       className="w-full  pt-16 pb-[50%] md:pb-[0%] md:pt-32  flex flex-col linear-bg-background-contact"
     >
       <p className="linear-text-contact-big md:pl-[12%] pl-[5%] font-bold font-inter md:text-[40px] text-[30px] ">
-        Contact Us
+        Kontakt
       </p>
       <p className="md:text-[20px] md:pl-[12%] pl-[5%] text-[16px] pr-5 md:pr-0 opacity-75 md:w-[700px] text-[#CFCFCF] mt-5">
-        If you would like to contact us to arrange a{" "}
-        <b className="text-[#91DA38]">customized offer</b>, feel free to do so!
-        You can call us or send us an email - we will be happy to answer your
-        questions and tailor an offer to your needs
+        Wenn Sie uns kontaktieren möchten, um einen{" "}
+        <b className="text-[#91DA38]">maßgeschneidertes Angebot</b>, Nur zu! Sie
+        können uns anrufen oder eine E-Mail schicken – wir beantworten gerne
+        Ihre Fragen und erstellen Ihnen ein auf Ihre Bedürfnisse zugeschnittenes
+        Angebot
       </p>
       <div className="mt-32 md:pl-[12%] pl-[5%] flex md:w-[703px]  w-[92%] h-[120px] md:h-[152px] mb-24">
         <div className="md:w-[18px] flex w-[10px] h-full  linear-bg-contact "></div>
@@ -81,7 +82,7 @@ function ContactSection() {
             <div className="flex items-center">
               <MdOutlinePhone className="text-[#595959] md:text-[32px] text-[25px]" />
               <p className="text-[#ffffff] pl-5 font-light text-[16px] md:text-[22px]">
-                Contact phone:
+                Kontaktnummer:
               </p>
               <p className="text-[#9EDB3A] md:pl-8 pl-4 font-bold text-[14px] md:text-[22px]">
                 0162 - 8364008
@@ -90,7 +91,7 @@ function ContactSection() {
             <div className="flex items-center">
               <MdOutlineEmail className="text-[#595959] md:text-[32px] text-[25px]" />
               <p className="text-[#ffffff] pl-5 font-light text-[16px] md:text-[22px]">
-                Contact e-mail:
+                E-Mail-Adresse:
               </p>
               <p className="text-[#9EDB3A] md:pl-8 pl-4  font-bold text-[14px] md:text-[22px]">
                 marcin0236@wp.pl
@@ -104,7 +105,7 @@ function ContactSection() {
         className="w-[75%] self-center justify-center  flex items-center "
       >
         <p className=" text-[18px] md:text-[28px] opacity-80 text-[#ffffff] font-semibold">
-          Quick message
+          Kurze Nachricht
         </p>
         <div className="flex flex-1 w-[60%] ml-3 h-[1px] bg-[#474747bb]"></div>
       </div>

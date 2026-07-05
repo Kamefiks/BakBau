@@ -1,7 +1,12 @@
 import { MdArrowForwardIos } from "react-icons/md";
 function ButtonMain({ type }) {
   return (
-    <div
+    <button
+      onClick={() =>
+        document
+          .getElementById("contactinfo")
+          .scrollIntoView({ behavior: "smooth" })
+      }
       className={`sm:w-[200px] w-[141px] cursor-pointer   h-[41px] sm:h-[60px] rounded-[8px] sm:rounded-[15px] justify-center flex items-center  border-2 ${
         type === "contact" &&
         "bg-[#1F7409]  border-[#31A60D] hover:-translate-y-1 hover:border-[#6ce946] duration-300 "
@@ -17,7 +22,7 @@ function ButtonMain({ type }) {
           <MdArrowForwardIos className="text-[15px] sm:text-[25px]" />
         )}
       </p>
-    </div>
+    </button>
   );
 }
 

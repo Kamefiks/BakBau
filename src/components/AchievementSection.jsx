@@ -12,18 +12,14 @@ function AchievementSection() {
         <div className="bg-[#D9D9D9] h-[2px] opacity-[20%]  lg:flex-1 w-[30%]"></div>
       </div>
       <div className=" w-[85%] 2xl:w-[80%] gap-3 justify-center  items-center lg:items-start sm:mt-10 mt-12 flex sm:gap-5 lg:flex-row flex-col">
+        <Achievement text={"Projekte"} data={"100+"} type={"completed"} />
         <Achievement
-          text={"Completed Projects"}
-          data={"100+"}
-          type={"completed"}
-        />
-        <Achievement
-          text={"Years in the industry"}
+          text={"Jahre in der Branche"}
           data={"20+"}
           type={"years"}
         />
         <Achievement
-          text={"Rating on Google"}
+          text={"Bewertung bei Google"}
           data={
             <div className="gap-2 flex items-center">
               <p>5.0</p>

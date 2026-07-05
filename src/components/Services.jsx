@@ -27,15 +27,15 @@ function Services() {
         <div className="md:bg-linear-bg-green-transparent  bg-none flex-col md:flex-row  justify-between flex w-full h-full ">
           <div className="flex-col flex">
             <p className="text-[24px] md:pt-8 pt-10 pl-[5%] pr-[6%] pb-[5%] md:pb-[0%] md:pl-[0%] md:pr-[0%] linear-bg-headline-content font-semibold font-inter sm:text-[36px]">
-              Your Garden, Our Passion
+              Ihr Garten, unsere Leidenschaft
             </p>
             <p className="md:text-[20px] text-[15px] pl-[6%] pb-[13%] md:pb-[0%] pr-[6%] md:pl-[0%] md:pr-[0%] md:mt-2 font-light md:mb-10 text-[#D1D1D1] opacity-[83%] font-inter md:w-[420px]">
-              From crafting bespoke garden designs to meticulous tree felling
-              and hedge trimming, we ensure every corner of your garden is a
-              masterpiece. Whether you&apos;re looking to plant a vibrant flower
-              bed, install a fresh lawn, or keep weeds at bay, our expert team
-              delivers care and precision. Let us shape your green spaces into
-              an oasis you’ll love to enjoy.
+              Von der Erstellung maßgeschneiderter Gartenentwürfe bis hin zur
+              sorgfältigen Baumfällung und Heckenschnitt – wir sorgen dafür,
+              dass jeder Winkel Ihres Gartens ein Meisterwerk wird. Ganz gleich,
+              ob Sie ein farbenfrohes Blumenbeet anlegen, einen neuen Rasen
+              anlegen oder Unkraut fernhalten möchten – unser Expertenteam
+              arbeitet mit Sorgfalt und Präzision.
             </p>
           </div>
           <div className="flex md:items-start items-center   flex-col">
@@ -44,26 +44,26 @@ function Services() {
                 <div className="flex pt-4 pl-6 md:pt-5 md:pl-8 flex-col border-b-[2px] pb-4 md:pb-6 border-[#405519]">
                   <div className="flex justify-between pr-5 md:pr-8 items-center">
                     <p className="linear-bg-text-gardening md:text-[32px] text-[20px] font-inter font-semibold">
-                      Garden maintenance
+                      Gartenpflege
                     </p>
 
                     <BiLeaf className="text-[#9CC35D] text-[27px] md:text-[40px]" />
                   </div>
                   <div className="flex justify-between md:pr-8 items-center">
                     <p className="text-[#435F2D] md:-mt-2 md:ml-[3px] md:text-[20px] text-[14px] font-inter">
-                      Examples of work
+                      Arbeitsbeispiele
                     </p>
                   </div>
                 </div>
 
                 <ul className="list-disc md:ml-14 ml-10 gap-1 flex flex-col pb-12 md:pb-16 font-inter text-[16px] md:text-[20px] text-[#BDBDBD] mt-5">
-                  <li className="opacity-100">Garden Design</li>
-                  <li className="opacity-100">Tree Felling</li>
-                  <li className="opacity-100">Planting Work</li>
-                  <li className="opacity-100">Turf Laying</li>
-                  <li className="opacity-100">Hedge Trimming</li>
-                  <li className="opacity-50">Weeding</li>
-                  <li className="opacity-20">Edging Lawns</li>
+                  <li className="opacity-100">Gartengestaltung</li>
+                  <li className="opacity-100">Baumfällung</li>
+                  <li className="opacity-100">Pflanzarbeiten</li>
+                  <li className="opacity-100">Rasenverlegung</li>
+                  <li className="opacity-100">Heckenschnitt</li>
+                  <li className="opacity-50">Unkraut jäten</li>
+                  <li className="opacity-20">Rasenkanten anlegen</li>
                 </ul>
               </div>
             </div>
@@ -82,7 +82,7 @@ function Services() {
           <div className="flex items-center   gap-1 -mb-3">
             <div className="bg-[#383838] h-[1px] w-[4%]"></div>
             <p className="text-[#FFFFFF] font-semibold font-inter">
-              Idea & construction
+              Idee & Umsetzung
             </p>
 
             <div className="bg-[#383838]  h-[1px] w-[55.5%] flex  justify-self-end"></div>
@@ -95,25 +95,25 @@ function Services() {
                 <div className="flex pt-4 pl-6 md:pt-5 pb-4 md:pl-8 flex-col border-b-[2px] md:pb-6 border-[#474747]">
                   <div className="flex justify-between pr-5 md:pr-8 items-center">
                     <p className="text-[#FFFFFF] md:text-[32px] text-[20px] font-inter font-semibold ">
-                      Idea & construction
+                      Idee & Umsetzung
                     </p>
 
                     <MdOutlineCarpenter className="text-[#898989] text-[27px] md:text-[40px]" />
                   </div>
                   <div className="flex justify-between md:pr-8 items-center">
                     <p className="text-[#545454] md:-mt-2 md:ml-[3px] md:text-[20px] text-[14px] font-inter">
-                      Examples of work
+                      Arbeitsbeispiele
                     </p>
                   </div>
                 </div>
 
                 <ul className="list-disc md:ml-14 ml-10 gap-1 flex flex-col pb-12 md:pb-16 font-inter text-[16px] md:text-[20px] text-[#BDBDBD] mt-5">
-                  <li className="opacity-100">Terrace Building</li>
-                  <li className="opacity-100">Fence Building</li>
-                  <li className="opacity-100">Paving Works</li>
+                  <li className="opacity-100">Terrassengebäude</li>
+                  <li className="opacity-100">Zaunbau</li>
+                  <li className="opacity-100">Pflasterarbeiten</li>
 
-                  <li className="opacity-50">Garden Ponds</li>
-                  <li className="opacity-20">Irrigation Installation</li>
+                  <li className="opacity-50">Gartenteiche</li>
+                  <li className="opacity-20">Bewässerung</li>
                 </ul>
               </div>
             </div>
@@ -121,12 +121,13 @@ function Services() {
           </div>
           <div className="flex-col flex">
             <p className="text-[24px] md:pt-8 pt-10 pl-[5%] pr-[6%] pb-[5%] md:pb-[0%] md:pl-[0%] md:pr-[0%]  linear-bg-headline-content font-semibold font-inter sm:text-[36px]">
-              Bring your ideas to life
+              Verwirklichen Sie Ihre Ideen
             </p>
             <p className="md:text-[20px] text-[15px] pb-[13%] pl-[6%] pr-[6%] md:pl-[0%] md:pr-[0%] md:mt-2  font-light md:mb-10 text-[#D1D1D1] opacity-[83%] font-inter md:w-[420px]">
-              with our expert construction services. We specialize in building
-              beautiful terraces, durable fences, and functional irrigation
-              systems. Let us turn your dream outdoor area into a reality.
+              mit unseren professionellen Bauleistungen. Wir sind spezialisiert
+              auf den Bau schöner Terrassen, langlebiger Zäune und funktionaler
+              Bewässerungssysteme. Lassen Sie uns Ihren Traum vom perfekten
+              Außenbereich Wirklichkeit werden lassen.
             </p>
           </div>
         </div>
