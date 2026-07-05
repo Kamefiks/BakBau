@@ -7,7 +7,7 @@ function AchievementSection() {
       <div className="flex w-full 2xl:w-[80%] xl:w-[80%] lg:w-[90%] justify-between lg:justify-start sm:gap-3  items-center   mt-20 sm:mt-0">
         <div className="bg-[#D9D9D9] lg:hidden h-[2px] opacity-[20%] w-[30%]"></div>
         <p className="text-[19px] lg:text-[22px] flex text-nowrap linear-text-dark font-medium font-inter">
-          Our achievements
+          Unsere Erfolge
         </p>
         <div className="bg-[#D9D9D9] h-[2px] opacity-[20%]  lg:flex-1 w-[30%]"></div>
       </div>

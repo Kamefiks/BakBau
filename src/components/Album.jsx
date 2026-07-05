@@ -40,7 +40,7 @@ function Album({
             <p
               className={`text-[15px]  font-medium ${albumName === "Gartenpflege" ? "text-[#435F2D]" : "text-[#7D7D7D]"}`}
             >
-              Click to see more
+              Mehr erfahren
             </p>
           </div>
           <div className="flex w-[40%]  justify-center items-center">

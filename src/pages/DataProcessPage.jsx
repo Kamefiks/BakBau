@@ -7,12 +7,12 @@ import PageDatenshutz from "../components/PageDatenshutz";
 
 function DataProcessPage() {
   const [visibilityMenu, setVisibilityMenu] = useState(
-    "opacity-0 h-0 pointer-events-none"
+    "opacity-0 h-0 pointer-events-none",
   );
 
   return (
-    <div className="overflow-x-hidden bg-black md:overflow-x-visible">
-      <div className="flex md:flex-row flex-col w-full h-full bg-color">
+    <div className="overflow-x-hidden bg-black sm:overflow-x-visible">
+      <div className="flex 2xl:flex-row flex-col w-full h-full bg-color">
         <NavEnterPhone
           visibilityMenu={visibilityMenu}
           setVisibilityMenu={setVisibilityMenu}
